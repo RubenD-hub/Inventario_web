@@ -14,4 +14,34 @@ body {
   align-items: center;
 }
 
+.login {
+  width: 18.75rem;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.login .image_header {
+  background: center url(../assets/img/image_header.png);
+  border-radius: 5px;
+  height: 10.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: centesr;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  position: relative;
+}
+.login .image_header h2,
+.login .image_header i {
+  position: relative;
+  margin-top: 20px;
+}
+.login .image_header::before {
+  content: "";
+  background: rgba(104, 104, 104, 0.5);
+  position: absolute;
+  width: 18.75rem;
+  height: 10.625rem;
+}
+
 /*# sourceMappingURL=login.css.map */
