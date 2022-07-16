@@ -86,5 +86,19 @@ body {
 .login form button:hover {
   background-color: #9f4586;
 }
+.login .enlaces {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.login .enlaces a {
+  text-decoration: none;
+  color: #999;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+.login .enlaces a:hover {
+  color: #9f4586;
+}
 
 /*# sourceMappingURL=login.css.map */

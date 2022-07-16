@@ -96,4 +96,20 @@ body {
       background-color: #9f4586;
     }
   }
+
+  .enlaces {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+      color: #999;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #9f4586;
+    }
+  }
 }
