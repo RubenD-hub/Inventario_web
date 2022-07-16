@@ -26,7 +26,7 @@ body {
     height: 10.625rem;
     display: flex;
     flex-direction: column;
-    align-items: centesr;
+    align-items: center;
     color: white;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
     position: relative;
@@ -44,5 +44,42 @@ body {
     position: absolute;
     width: 18.75rem;
     height: 10.625rem;
+  }
+
+  form {
+    height: 14.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15px;
+
+    .form-icon {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      span {
+        position: absolute;
+        bottom: 10px;
+        left: 7px;
+      }
+
+      input {
+        padding: 7px 7px 7px 25px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #2667a8;
+        outline: none;
+      }
+
+      input:focus {
+        border-bottom: 2px solid #9f4586;
+        color: #9f4586;
+      }
+
+      input:focus + span {
+        color: #9f4586;
+      }
+    }
   }
 }
