@@ -81,5 +81,19 @@ body {
         color: #9f4586;
       }
     }
+
+    button {
+      background-color: #2667a8;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      padding: 12px;
+      cursor: pointer;
+      transition: 0.2s all ease;
+    }
+
+    button:hover {
+      background-color: #9f4586;
+    }
   }
 }

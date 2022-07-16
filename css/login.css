@@ -74,5 +74,17 @@ body {
 .login form .form-icon input:focus + span {
   color: #9f4586;
 }
+.login form button {
+  background-color: #2667a8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+.login form button:hover {
+  background-color: #9f4586;
+}
 
 /*# sourceMappingURL=login.css.map */
